@@ -1,0 +1,10 @@
+#warn{
+    text-align: center;
+    color:red;
+    background: rgb(175, 207, 56);
+    height: 30px;
+    width: 308px;
+    line-height: 30px;
+    font-weight: bolder;
+    border-radius: 5px;
+}

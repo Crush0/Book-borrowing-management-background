@@ -1,0 +1,32 @@
+body{
+    width: 580px;
+    margin:0 auto;
+}
+.content{
+    padding-top:30%;
+}
+.left-i{
+    text-align: right;
+}
+table{
+    margin:0 auto;
+}
+.login input{
+    display: inline-block;
+    width: 150px;
+}
+
+.log-btn-t td{
+    margin-top: 30px;
+}
+
+#warn{
+    text-align: center;
+    color:red;
+    background: rgb(175, 207, 56);
+    height: 30px;
+    width: 308px;
+    line-height: 30px;
+    font-weight: bolder;
+    border-radius: 5px;
+}

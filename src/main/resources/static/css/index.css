@@ -1,0 +1,16 @@
+#top-f{
+    width: 1000px;
+    height: 100px;
+}
+.content{
+    width:100%;
+    height: 500px;
+    background:skyblue;
+}
+#log-f{
+    width: 600px;
+    height: 450px;
+    background-color: slateblue;
+    margin-top: 25px;
+    right:200px;
+}

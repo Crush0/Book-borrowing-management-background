@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+    <link rel="stylesheet" href="../css/login.css">
+    <link rel="stylesheet" href="../css/common.css">
+    <script src="https://cdn.staticfile.org/jquery/1.10.2/jquery.min.js"></script>
+    <script src="../js/login.js"></script>
+</head>
+<body>
+    <div class="content">
+        <table>
+            <tr>
+                <td class="left-i">
+                    <label for="username">用户名:</label>
+                </td>
+                <td class="right-i">
+                    <input type="text" id="username" name="username">
+                </td>
+            </tr>
+            <tr>
+                <td class="left-i">
+                    <label for="password">密&nbsp;&nbsp;码:</label>
+                </td>
+                <td class="right-i">
+                    <input type="password" id="password" name="password">
+                </td>
+            </tr>
+            <tr class="log-btn-t">
+                <td></td>
+                <td class="login">
+                    <p id="warn" style="display: none;">密码错误</p>
+                    <input id="login-btn" type="button" value="登录">
+                    <a href="./reg.html" target="log-f">没有账号？立即注册！</a>
+                </td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>

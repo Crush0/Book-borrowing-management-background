@@ -1,0 +1,8 @@
+{
+  "properties": [
+    {
+      "name": "secret",
+      "type": "java.lang.Character",
+      "description": "密码解密加密秘钥."
+  }
+] }

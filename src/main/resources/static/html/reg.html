@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/common.css">
+    <link rel="stylesheet" href="../css/reg.css">
+    <script src="https://cdn.staticfile.org/jquery/1.10.2/jquery.min.js"></script>
+    <script src="../js/regsubmit.js"></script>
+    <style>
+        .reg-d{
+            margin-left: 95px;
+            margin-top: 20px;
+            overflow: hidden;
+        }
+        p,#btn-reg{
+            position: relative;
+            left:45px;
+        }
+        input#send-reg{
+            width: 100px;
+            margin:5px;
+            position: relative;
+            right:-200px;
+        }
+        .reg-d>a{
+            position:absolute;
+            left:45px;
+            top:20px;
+        }
+    </style>
+    <title>reg</title>
+</head>
+<body>
+    <div class="reg-d">
+        <a href="./login.html" target="log-f">返回登录</a>
+        <form id="reg-form">
+            <ul>
+                <li>
+                    <label for="username">用户名</label>
+                    <input type="text" id="username" name="username" required>
+                </li>
+                <li>
+                    <label for="password">密码</label>
+                    <input type="password" name="password" id="password" required>
+                </li>
+                <li>
+                    <label for="phone">手机号</label>
+                    <input type="text" name="phone" id="phone">
+                </li>
+                <li>
+                    <label for="email">邮箱</label>
+                    <input type="text" name="email" id="email" required>
+                    <input type="button" id="send-reg" value="验证">
+                </li>
+                <li>
+                    <label for="inputCode">验证码</label>
+                    <input type="text" name="inputCode" id="inputCode">
+                </li>
+            </ul>
+        </form>
+        <p id="warn" style="display: none;">密码格式错误</p>
+        <input type="submit" id="btn-reg" value="注册" disabled>
+    </div>
+</body>
+</html>
